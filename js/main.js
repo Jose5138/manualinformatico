@@ -5,39 +5,18 @@ $(document).ready(function () {
 			container: 'body'
 		});
 	});
-//modal	
-	var btn_emergente = document.getElementById('btn_emergente');
-    		btn_emergente.addEventListener('click', modall, false);
-
-  function modall() {
-    var capa = $('#capa');
-    var modal = $('#modal');
-    var cerrar = $('#clouse');
-    capa.css({
-      visibility: 'visible'
-    },500);
-    modal.animate({
-      top: '25%'
-    },500);
-    cerrar.click(function () {
-      capa.css({
-        visibility: 'hidden'
-      },500);
-      modal.animate({
-        top: '-100%'
-      },500);
-    });
-  }
-
-  
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
+	var link = document.querySelectorAll('#linkk');
+        $(link).click(function () { 
+		alert('Este Link está desactivado');
+	});
+	//animaciones con scroll reveal
+	ScrollReveal().reveal('#animate1', { 
+		delay: 500,
+		scale:0
+	});
+	ScrollReveal().reveal('#animate2', { 
+		delay: 1000,
+		origin: 'right',
+		distance: '50px'
+	});	
 }); // end ready

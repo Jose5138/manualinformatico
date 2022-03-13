@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="curso de hatm5, curso de css, curso de javascript">
 	<meta name="author" content="José Alejandro Pérez Sosa">
-	<link rel="icon" href="/assets/imgs/iconhtml.PNG">
+	<link rel="icon" href="assets/imgs/iconhtml.PNG">
 	<title>Manual Informático</title>
 	<!--Template based on URL below-->
 	<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
@@ -21,29 +21,29 @@
 	<!-- framework swiper.js CSS -->
 	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 	<!-- Place your stylesheet here -->
-	<link href="/css/estilo.css" rel="stylesheet" type="text/css">
+	<link href="css/estilo.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<nav class="navbar navbar-expand-md navbar-dark  fixed-top" id="animate1">
 		<div class="container">
-			<a class="navbar-brand" href="#">Navbar</a>
+			<a class="navbar-brand" href="#!" id="animate2">Logo</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				<ul class="navbar-nav ml-auto" id="animate2">
+					<li class="nav-item">
+						<a class="nav-link"  href="#!" id="linkk">Inicio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
+						<a class="nav-link" href="#!" id="linkk">Link</a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menú</a>
 						<div class="dropdown-menu" aria-labelledby="dropdown01">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
+							<a class="dropdown-item" href="#!" id="linkk">Link 1</a>
+							<a class="dropdown-item" href="#!" id="linkk">Link 2 </a>
+							<a class="dropdown-item" href="#!" id="linkk">Link 3</a>
 						</div>
 					</li>
 				</ul>
@@ -51,75 +51,202 @@
 		</div>
 	</nav>
 	<main role="main" class="container contenedor">
-		<div class="hero-image">
-			<div class="hero-text">
-				<h1 style="font-size:50px">Manual Informático</h1>
+		<header class="image-fondo" id="animate1">
+			<div class="text-fondo">
+				<h1 id="animate2">Manual Informático</h1>
 			</div>
-		</div>
-		<div class="informatica">
-			<h1>informática</h1>
-			<hr>
+		</header>
+		<div class="informatica" id="animate1">
+			<h1 class="title" id="animate2">informática</h1>
+			<hr id="animate1">
 			<div class="row">
-				<div class="col-sm conten-left">
-					<h1>el término informática</h1>
+				<div id="animate2" class="col-sm-12 col-md ">
+					<img class="img-fluid img1" src="assets/imgs/img5.jpg" alt="pc">
+				</div>
+				<div id="animate2" class="col-sm-12 col-md right-content">
+					<h1 class="title">el término informática</h1>
 					<p>
 						viene de la contracción de las palabras información y automática, existen diversas definiciones del término informática.
 					</p>
 					<p class="boton">
-						<button type="button" class="btn  btn-outline-dark btn-sm example-popover" data-toggle="popover" data-placement="bottom" data-content="Informática es la ciencia que estudia el tratamiento automático y racional de la información.">Leer Más</button>
+						<button type="button" class="btn  btn-sm example-popover" data-toggle="popover" data-placement="bottom" data-content="Informática es la ciencia que estudia el tratamiento automático y racional de la información.">Leer Más</button>
 					</p>
-				</div>
-				<div class="col-sm conten-right">
-					<img class="img-fluid" src="/assets/imgs/img5.jpg" alt="">
 				</div>
 			</div><!-- end row-->
 		</div><!-- end informatica-->
-		<div class="computador">
-			<h1>El Computador</h1>
-			<hr>
-			<div class="row">
-				<div class="col  conten-left">
-					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src="/assets/imgs/img3.jpg" class="d-block w-100 img-fluid" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="/assets/imgs/img4.jpg" class="d-block w-100" alt="...">
-							</div>
-							<div class="carousel-item">
-								<img src="/assets/imgs/img2.jpg" class="d-block w-100" alt="...">
-							</div>
+<div class="computador" id="animate1">
+	<h1 class="title" id="animate2">El Computador</h1>
+	<hr>
+		<div class="row">
+			<div id="animate2" class="col-sm-12  col-md ">
+				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="assets/imgs/img3.jpg" class="img-carousel  img-fluid" alt="pc">
+						</div>
+						<div class="carousel-item">
+							<img src="assets/imgs/img4.jpg" class="img-carousel img-fluid" alt="pc">
+						</div>
+						<div class="carousel-item">
+							<img src="assets/imgs/img2.jpg" class="img-carousel" alt="pc">
 						</div>
 					</div>
 				</div>
-				<div class="col conten-right">
-					<h1>Los Ordenadores</h1>
-					<p>
-						son máquina o dispositivos capaz de recibir información, procesarlas y entregar resultados en la forma esperada. Equipo electrónico <a href="#" id="hardware">Hardware</a> que recibe instrucciones en forma de programas <a href="#" id="software">Software</a> para resolver diferentes tareas utilizando algoritmos.
-					</p>
-					<input type="button" value="emergente" id="btn_emergente">
-				</div>
-			</div><!-- and row-->
-		</div><!-- and informatica-->
-	</main><!-- /.container -->
-	<!-- modal -->
-	<div id="capa" class="capa"></div>
-		<div id="modal" class="ventana">
-			<div class="header">
-				<h1>Hola Mundo</h1>
-					<a href="#" id="clouse">
-						<i class="fa fa-times"></i>
-					</a>
 			</div>
-			<div class="body">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab omnis, accusantium earum rerum amet animi tenetur natus, ad aliquid vel veritatis exercitationem! Numquam blanditiis esse ipsam, impedit adipisci optio nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum magni ex dolor labore velit quas aperiam similique voluptate, dolorum, assumenda aliquam. Dolore totam molestias quisquam ullam nostrum atque eum repudiandae.
+			<div id="animate1" class=" col-sm-12 col-md pc">
+				<h1 id="animate2">Los Ordenadores</h1>
+				<p id="animate2">
+					son máquina o dispositivos capaz de recibir información, procesarlas y entregar resultados en la forma esperada. Equipo electrónico <a href="#" id="hardware" data-toggle="modal" data-target="#modalHardware">Hardware</a> que recibe instrucciones en forma de programas <a href="#" id="software" data-toggle="modal" data-target="#modalSoftware">Software</a> para resolver diferentes tareas utilizando algoritmos.
 				</p>
 			</div>
+		</div><!-- end row computador-->
+	</div><!-- end computador-->
+</main><!-- end container general-->
+<footer id="animate1" class="page-footer font-small stylish-color-dark">
+	<div class="container text-center text-md-left">
+		<div class="row">
+			<div id="animate2" class="col-md-4 mx-auto">
+		    		<h4 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h4>
+		    		<p>
+		       Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+			consectetur
+			adipisicing elit.
+		    		</p>
+			</div>
+		<hr class=" clearfix w-50 d-md-none">
+			<div id="animate1" class="col-md-2 mx-auto">
+		    		<h5 id="animate2" class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+		    		<ul class="list-unstyled">
+					<li id="animate2">
+						<a href="#!" id="linkk">Link 1</a>
+					</li>
+					<li id="animate2">
+						<a href="#!" id="linkk">Link 2</a>
+					</li>
+					<li id="animate2">
+						<a href="#!" id="linkk">Link 3</a>
+					</li>
+					<li id="animate2">
+						<a href="#!" id="linkk">Link 4</a>
+					</li>
+				</ul>
+			</div>
+		<hr class="clearfix w-50 d-md-none">
+		<div id="animate1" class="col-md-2 mx-auto">
+		    	<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+		    	<ul class="list-unstyled">
+				<li id="animate2">
+			    		<a href="#!" id="linkk">Link 1</a>
+				</li>
+				<li id="animate2">
+			    		<a href="#!" id="linkk">Link 2</a>
+				</li>
+				<li id="animate2">
+			    		<a href="#!" id="linkk">Link 3</a>
+				</li>
+				<li id="animate2">
+			    		<a href="#!" id="linkk">Link 4</a>
+				</li>
+		    	</ul>
 		</div>
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
+	<hr class="clearfix w-50 d-md-none">
+	<div id="animate1" class="col-md-2 mx-auto">
+		<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+		    	<ul class="list-unstyled">
+				<li id="animate2">
+			    		<a href="#!" id="linkk">Link 1</a>
+				</li>
+				<li id="animate2">
+			    		<a href="#!" id="linkk">Link 2</a>
+				</li>
+				<li id="animate2">
+			    		<a href="#!" id="linkk">Link 3</a>
+				</li>
+				<li id="animate2">
+			    		<a href="#!" id="linkk">Link 4</a>
+				</li>
+		    	</ul>
+		</div>
+	</div>
+	</div>
+	<hr>
+	<ul id="animate1" class="list-unstyled list-inline text-center py-2">
+		<li id="animate2" class="list-inline-item">
+			<h5 class="mb-1">Registrar:</h5>
+	    	</li>
+	    	<li id="animate2" class="list-inline-item">
+	    		<a href="#!" class="btn btn-light btn-rounded" id="linkk">Ingresar</a>
+		</li>
+	</ul>
+	<hr>
+	<!-- Social buttons -->
+	<ul id="animate1" class="list-unstyled list-inline text-center">
+		<li id="animate2" class="list-inline-item">
+			<a href="#!" class="btn-floating btn-fb mx-1" id="linkk">
+				<i class="fa fa-facebook-f" ></i>
+			</a>
+		</li>
+		<li id="animate2" class="list-inline-item">
+			<a href="#!" class="btn-floating btn-tw mx-1" id="linkk">
+				<i class="fa fa-twitter"> </i>
+			</a>
+		</li>
+		<li id="animate2" class="list-inline-item">
+			<a href="#!" class="btn-floating btn-gplus mx-1" id="linkk">
+				<i class="fa fa-google"></i>
+			</a>
+		</li>
+		<li id="animate2" class="list-inline-item">
+			<a href="#!" class="btn-floating btn-youtube mx-1" id="linkk">
+				<i class="fa fa-youtube"> </i>
+			</a>
+		</li>
+		<li id="animate2" class="list-inline-item">
+			<a href="#!" class="btn-floating btn-dribbble mx-1" id="linkk">
+				<i class="fa fa-dribbble"></i>
+			</a>
+		</li>
+	</ul>
+	<!-- Copyright -->
+	<div id="animate2" class="footer-copyright text-center py-3">© 2022 Copyright:
+		<a href="#" class="text-light" id="linkk">JAPS</a>
+	</div>
+	<!-- Copyright -->
+</footer>
+<!-- Modal hardware -->
+<div class="modal fade" id="modalHardware" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+	    		<div class="modal-header">
+	      			<h1 class="modal-title" id="exampleModalLabel">gráfica hardware</h1>
+	      			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+	      			</button>
+	    		</div>
+	    		<div class="modal-body">
+	      			<img src="assets/imgs/computadorGrafi.PNG" class="img-fluid" alt="">
+	    		</div>
+		</div>
+	</div>
+</div>
+<!-- Modal software -->
+<div class="modal fade" id="modalSoftware" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  	<div class="modal-content">
+	    		<div class="modal-header">
+	      			<h5 class="modal-title" id="exampleModalLabel">los software</h5>
+	      			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+	      			</button>
+	    		</div>
+	    		<div class="modal-body">
+	      			<img src="assets/imgs/img1.jpg" class="img-fluid" alt="pc">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Bootstrap core JavaScript
+	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
